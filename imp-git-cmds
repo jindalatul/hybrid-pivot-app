@@ -1,0 +1,108 @@
+543  mkdir work
+  544  cd work
+  545  pwd
+  546  git clone https://ghe.bcbsnc.com/atuljindal/station.git
+  547  ls
+  548  git remote add upstream https://ghe.bcbsnc.com/BCBSNC-Cloud/station.gitt
+  549  cd station/
+  550  git remote add upstream https://ghe.bcbsnc.com/BCBSNC-Cloud/station.gitt
+  551  git remote add upstream https://ghe.bcbsnc.com/BCBSNC-Cloud/station.git
+  552  git remove upstream
+  553  git remote remove upstream
+  554  git remote add upstream https://ghe.bcbsnc.com/BCBSNC-Cloud/station.git
+  555  git remote -v
+  556  git pull upstream master
+  557  git push origin master
+  558  git push origin master
+  559  git push origin master
+  560  git config --global user.name "atuljindal"
+  561  git config --global user.email "atul.jindal@bcbsnc.com"
+  562  ls
+  563  clear
+  564  cd ..
+  565  ls
+  566  history
+  567  git clone https://ghe.bcbsnc.com/atuljindal/BlueConnect-Mobile.git
+  568  ls -ltr
+  569  cd BlueConnect-Mobile/
+  570  git remote add upstream https://ghe.bcbsnc.com/BCBSNC-Cloud/BlueConnect-Mobile.git
+  571  git remote -v
+  572  git pull upstream master
+  573  git push origin master
+  574  history
+  575  cd ..
+  576  ls
+  577  git clone https://ghe.bcbsnc.com/BCBSNC-Cloud/capra.git
+  578  ls
+  579  cd capra
+  580  dir
+  581  git remote add upstream https://ghe.bcbsnc.com/BCBSNC-Cloud/capra.git
+  582  git push origin master
+  583  git remove upstream https://ghe.bcbsnc.com/BCBSNC-Cloud/capra.git
+  584  git remote remove upstream https://ghe.bcbsnc.com/BCBSNC-Cloud/capra.git
+  585  git remote -v
+  586  git remote remove origin
+  587  git remote -v
+  588  ls
+  589  cd ..
+  590  rm -rfv capra/
+  591  clear
+  592  ls
+  593  git clone https://ghe.bcbsnc.com/atuljindal/capra.git
+  594  cd capra
+  595  dir
+  596  dir
+  597  cd ..
+  598  dir
+  599  ls
+  600  cd capra
+  601  ls
+  602  history
+  603  git remote add upstream https://ghe.bcbsnc.com/atuljindal/capra.git
+  604  git remote -v
+  605  git remote remove upstream
+  606  git remote -v
+  607  git remote add upstream https://ghe.bcbsnc.com/BCBSNC-Cloud/capra.git
+  608  git remote -v
+  609  clear
+  610  git remote -v
+  611  cd ..
+  612  ls
+  613  cd station/
+  614  ls
+  615  git remote add christine https://ghe.bcbsnc.com/christineminer/station.git 
+  616  git remote -v
+  617  git pull christine master
+  618  git push origin
+  619  git status
+  620  cd ..
+  621  ls
+  622  cd BlueConnect-Mobile/
+  623  git remote add christine https://ghe.bcbsnc.com/christineminer/BlueConnect-Mobile.git
+  624  git remote -v
+  625  git pull christine master
+  626  git push origin 
+  627  cd ..
+  628  ls
+  629  cd station/
+  630  clear
+  631  pwd
+  632  touch test
+  633  git status
+  634  vi test-file
+  635  vi test-file
+  636  vi test-file
+  637  git status
+  638  git add .
+  639  git commit -m "First Sample Change"
+  640  git push origin
+  641  git pull origin
+  642  git rm -f test-file 
+  643  git status
+  644  git commit -m
+  645  git commit -m .
+  646  clear
+  647  git push origin
+  648  cd ..
+  649  cd ..
+  650  history >> git-commands.txt

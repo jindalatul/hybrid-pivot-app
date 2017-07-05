@@ -1,0 +1,42 @@
+Ignore all changes since last commit.
+Any changes to tracked files in the working tree since <commit> are discarded
+https://stackoverflow.com/questions/4630312/reset-all-changes-after-last-commit-in-git
+
+Git to list all branches
+http://gitready.com/intermediate/2009/02/13/list-remote-branches.html
+
+Git delete branches
+https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-both-locally-and-remotely
+
+Commands
+git branch //list all the branches
+git branch -a   // list all the branches local
+git branch -r   // list all remote branches
+
+git checkout <branch-name> to switch between branches
+
+git branch -d <branch name> // delete branch locally
+
+git push --delete <branch name>  // delete branch remote
+
+----------
+To work on new feature while using git
+
+create new branch name <feature-branch>
+git branch <feature-branch> // creates branch
+
+switch to feature branch recently created
+git checkout <feature-branch>
+
+commit all changes to feature branch
+git add .
+git commit -m "adding new feature"
+
+switch back to master branch
+git checkout master
+
+merge your changes from <feature branch> to <master branch>
+git merge <feature_branch>
+
+Push <feature branch> to git
+git push origin <feature_branch>
